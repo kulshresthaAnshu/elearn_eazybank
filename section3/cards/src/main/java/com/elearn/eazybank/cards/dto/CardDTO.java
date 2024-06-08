@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
 import lombok.*;
 
-@Schema(name = "Cards", description = "Schema to hold Card information")
+@Schema(name = "Card", description = "Schema to hold Card information")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
