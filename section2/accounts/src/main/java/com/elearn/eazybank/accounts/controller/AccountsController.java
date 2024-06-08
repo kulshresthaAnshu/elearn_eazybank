@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.elearn.eazybank.accounts.constants.AccountConstant;
-import com.elearn.eazybank.accounts.dd.CustomerDTO;
-import com.elearn.eazybank.accounts.dd.ErrorResponseDTO;
-import com.elearn.eazybank.accounts.dd.ResponseDTO;
+import com.elearn.eazybank.accounts.dto.CustomerDTO;
+import com.elearn.eazybank.accounts.dto.ErrorResponseDTO;
+import com.elearn.eazybank.accounts.dto.ResponseDTO;
 import com.elearn.eazybank.accounts.service.AccountService;
 
 import io.swagger.v3.oas.annotations.Operation;

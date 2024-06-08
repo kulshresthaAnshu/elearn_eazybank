@@ -4,7 +4,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.elearn.eazybank.accounts.dd.AccountDTO;
+import com.elearn.eazybank.accounts.dto.AccountDTO;
 import com.elearn.eazybank.accounts.entity.Account;
 @Component
 public class AccountMapper extends ModelMapper {

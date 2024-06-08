@@ -4,7 +4,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.elearn.eazybank.accounts.dd.CustomerDTO;
+import com.elearn.eazybank.accounts.dto.CustomerDTO;
 import com.elearn.eazybank.accounts.entity.Customer;
 
 @Component

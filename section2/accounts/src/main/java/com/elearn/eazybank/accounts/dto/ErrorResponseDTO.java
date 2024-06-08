@@ -1,4 +1,4 @@
-package com.elearn.eazybank.accounts.dd;
+package com.elearn.eazybank.accounts.dto;
 
 import java.time.LocalDateTime;
 
