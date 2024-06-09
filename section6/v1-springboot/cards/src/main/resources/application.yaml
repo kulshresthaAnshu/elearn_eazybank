@@ -1,0 +1,35 @@
+server:
+  port: 9000
+spring:
+  config:
+   import:
+    - "application_prod.yaml"
+    - "application_qa.yaml"
+  profiles:
+   active:
+     - "qa"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true   
+ 
+build:
+ version: "1.3"  
+   
+cards:
+  message: "Welcome to EazyBank cards related prod APIs "
+  contactDetails:
+    name: "Anuj Kul - Developer"
+    email: "anujkul@eazybank.com"
+  onCallSupport:
+    - (617) 333-2356
+    - (936) 555-8721
