@@ -1,0 +1,11 @@
+build:
+ version: "2.0"
+ 
+accounts:
+ message: "Welcome to EazyBank accounts related local APIs "
+ contactDetails:
+   name: "Babita K - QA Lead"
+   email: "babita@eazybank.com"
+ onCallSupport:
+    - (555) 222-1234
+    - (555) 222-1345

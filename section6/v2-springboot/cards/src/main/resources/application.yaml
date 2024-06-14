@@ -6,7 +6,7 @@ spring:
   profiles:
     active: "prod"
   config:
-   import: "configserver:http://localhost:8071/"
+   import: "optional:configserver:http://localhost:8071/"
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
@@ -22,10 +22,10 @@ spring:
     show-sql: true   
     
   rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
+   host: localhost
+   port: 5672
+   username: guest
+   password: guest
  
 management:
  endpoints:

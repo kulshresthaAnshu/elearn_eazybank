@@ -2,7 +2,7 @@ server:
   port: 8090
 spring:
   config:
-   import: "configserver:http://localhost:8071/"
+   import: "optional:configserver:http://localhost:8071/"
   application:
    name: "loans"
   profiles: 
@@ -23,10 +23,10 @@ spring:
     show-sql: true
     
   rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
+   host: localhost
+   port: 5672
+   username: guest
+   password: guest
     
 management:
  endpoints:
