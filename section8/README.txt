@@ -1,9 +1,8 @@
 This section covers the example of 
-1. Replace MySQL with H2 
-2. Remove AMQP
+1. we have covered eureka server discovery and registry 
 3. update docker compose
 
-In this example we have removed the changes for MYSQL .The below depedency to keep the project lightweight are removed. This will remove the need of Mysql container conatiner
+In this example we have removed the changes for MYSQL ,AMQP, Monitor.The below depedency to keep the project lightweight are removed. This will remove the need of Mysql container RabbitMQ container.
 we have used the eureka for service registry and discovery.
 
 4. To execute the schema.sql file we need to make sure that the table name is as same as entity
